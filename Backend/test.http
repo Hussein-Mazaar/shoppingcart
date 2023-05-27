@@ -1,0 +1,54 @@
+// login
+POST http://localhost:3000/api/users/login
+content-type: application/json
+
+{
+    "username": "John",
+    "password": "111"
+}
+
+######
+GET http://localhost:3000/api/products
+content-type: application/json
+Authorization: 1-John-1684640369097
+
+
+######
+GET http://localhost:3000/api/products/1
+content-type: application/json
+Authorization: 1-John-1684640369097
+
+
+######
+GET http://localhost:3000/api/cart/cartInfo
+content-type: application/json
+Authorization: 1-John-1684640369097
+
+
+######
+
+POST http://localhost:3000/api/cart/addItem
+content-type: application/json
+Authorization: 1-John-1684640369097
+
+{
+    "prodId": 1,
+    "quantity": 1
+}
+
+######
+PUT http://localhost:3000/api/cart/setQuantity
+content-type: application/json
+Authorization: 1-John-1684640369097
+
+{
+    "itemId": 1,
+    "quantity": 10
+}
+
+
+###### placeOrder
+POST http://localhost:3000/api/cart/placeOrder
+content-type: application/json
+Authorization: 1-John-1684640369097
+

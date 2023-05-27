@@ -1,0 +1,152 @@
+/* main-styles.css */
+/* author: O. Kalu */
+/* since: 2020-05-03 */
+
+body {
+    margin-bottom: 30px;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background-color: #f5f5f5;
+    line-height: 30px;
+}
+#divBannerImage {
+    width: 100%;
+    height: 176px;
+    margin-bottom: 1em;
+    text-align: center;
+    /* background-image: url("../images/hcmc-photo2.jpg"); */
+}
+#divAboutUs {
+    border-right: 0px solid #b5b5b5;
+    margin-right: 0em;
+}
+#divAddress {
+    text-align: left;
+    margin-left: 0em;
+}
+#spnSlogan {
+    font-family: cursive;
+    font-style: italic;
+    font-size: medium;
+}
+
+
+ /* Add any additional custom styles here */
+ body {
+    background-color: #f5f5f5;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    background-image: url('./images/logo.png');
+    background-size: cover;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logout-btn {
+    margin-right: 20px;
+}
+
+.welcome {
+    vertical-align: middle;
+}
+
+.header-container {
+    width: 100%;
+}
+
+.product-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#cart-message {
+    display: none;
+}
+
+#checkoutBtn {
+    display: none;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.quantity {
+display: flex;
+align-items: center;
+}
+
+.quantity button {
+width: 30px;
+height: 30px;
+font-size: 16px;
+font-weight: bold;
+border: none;
+border-radius: 50%;
+background-color: #e95420;
+color: #343a40;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+
+.quantity input {
+width: 50px;
+height: 30px;
+padding: 0 10px;
+text-align: center;
+font-size: 14px;
+border: 1px solid #ced4da;
+border-radius: 4px;
+transition: border-color 0.3s;
+}
+
+.quantity button:hover {
+background-color: #da888f;
+}
+
+.quantity input:focus {
+outline: none;
+border-color: #80bdff;
+box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.quantity-minus {
+margin-left: 10px;
+background-color: burlywood;
+}
+.quantity-plus {
+margin-right: 10px;
+background-color: burlywood;
+}
+
+.quantity input::-webkit-inner-spin-button,
+.quantity input::-webkit-outer-spin-button {
+-webkit-appearance: none;
+margin: 0;
+display: none;
+}
+.quantity input[type="number"] {
+-moz-appearance: textfield;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    background-image: url('../images/logo.png');
+    background-size: cover;
+    display: inline-block;
+    vertical-align: middle;
+}
